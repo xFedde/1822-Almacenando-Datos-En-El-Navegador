@@ -131,3 +131,33 @@ form {
   padding:15px;
   
 }
+@media screen and (max-width: 600px) { 
+  *{
+    font-size: 14px;
+  }
+  .inputForm{
+    width: 100%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+  }
+  .btnCreate{
+    padding: 5px 8px;
+    width: 100%;
+  }
+  li .date{
+
+    padding: 10px;
+  }
+
+}
+@media screen and (max-width: 375px){
+  .btnCreate{
+    padding: 8x 10px;
+    width: 100%;
+  }
+}
