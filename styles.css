@@ -135,6 +135,9 @@ form {
   *{
     font-size: 14px;
   }
+  .mainCard{
+    width: 60vw;
+  }
   .inputForm{
     width: 100%;
   }
@@ -153,7 +156,6 @@ form {
 
     padding: 10px;
   }
-
 }
 @media screen and (max-width: 375px){
   .btnCreate{
